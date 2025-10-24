@@ -6,7 +6,7 @@ from telebot import types
 bot = telebot.TeleBot("8241565803:AAE5W3cYAym0oG_EtNhL_w3sK9X0EfFXn7g")
 
 # Увеличиваем лимиты для больших файлов
-bot.max_file_size = 50 * 1024 * 1024  # 50MB
+bot.max_file_size = 1024 * 1024 * 1024  # 50MB
 bot._server_cert = None  # Отключаем проверку сертификата для стабильности
 
 # База данных
