@@ -3,7 +3,7 @@ import sqlite3
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot("8241565803:AAE5W3cYAym0oG_EtNhL_w3sK9X0EfFXn7g")
+bot = " "
 
 # База данных
 conn = sqlite3.connect('files.db', check_same_thread=False)
